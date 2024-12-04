@@ -15,7 +15,6 @@ For simplicity, use Python's built-in HTTP server. It’s lightweight and suffic
    ```
 3. Paste the following script:
    ```
-   python
    from http.server import BaseHTTPRequestHandler, HTTPServer
    import json
 
