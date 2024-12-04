@@ -1,4 +1,4 @@
-Create a new Python script for your webhook listener:
+Creating & using the Python script for your webhook listener:
 
 bash
 ```
