@@ -25,6 +25,11 @@ bash
 ```
 ngrok http 8000
 ```
+To listen on port 8000
+```
+netstat -tuln | grep :8000
+```
+
 Ngrok will provide a public URL (e.g., https://abcd1234.ngrok.io) that forwards to your local server. Use this URL as your webhook target.
 
 Test Your Webhook Server
